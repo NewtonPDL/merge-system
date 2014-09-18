@@ -1,119 +1,120 @@
 <?php
 /**
- * MyBB 1.8 Merge System
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Pacote de Língua Brasileira
+ * Direitos Autorais 2014 MyBB Group, Todos os Direitos Reservados
+ * Traduzido por dthiago ArnoldLayne-xXx 
+ * From : http://bf4brasil.com.br/
  * Website: http://www.mybb.com
  * License: http://www.mybb.com/download/merge-system/license/
  */
 
-$l['next'] = "Next";
-$l['version'] = "Version";
-$l['none'] = "None";
-$l['please_wait'] = "Please wait...";
-$l['welcome'] = "Welcome";
+$l['next'] = "Próximo";
+$l['version'] = "Versão";
+$l['none'] = "Nenhum";
+$l['please_wait'] = "Aguarde...";
+$l['welcome'] = "Bem vindo";
 $l['pause'] = "Pause";
-$l['error'] = "Error";
-$l['warning'] = "Warning";
-$l['completed'] = "Completed";
-$l['dependencies'] = "Dependencies";
-$l['resume'] = "Resume";
-$l['run'] = "Run";
-$l['cleanup'] = "Cleanup";
-$l['yes'] = "Yes";
-$l['no'] = "No";
-$l['download'] = "Download";
-$l['redirecting'] = "Redirecting...";
-$l['dont_wait'] = "Click to continue, if you do not wish to wait.";
-$l['back'] = "Back";
-$l['found_error'] = "Error Encountered";
-$l['loading_data'] = "Loading data from database...";
-$l['done'] = "Done";
+$l['error'] = "Erro";
+$l['warning'] = "Advertência";
+$l['completed'] = "Concluído";
+$l['dependencies'] = "Dependências";
+$l['resume'] = "Resumir";
+$l['run'] = "Operar";
+$l['cleanup'] = "Limpar";
+$l['yes'] = "Sim";
+$l['no'] = "Não";
+$l['download'] = "Baixar";
+$l['redirecting'] = "Redirecionando...";
+$l['dont_wait'] = "Clique para continuar,se você não deseja esperar.";
+$l['back'] = "Voltar";
+$l['found_error'] = "Erro Encontrado";
+$l['loading_data'] = "Carregando arquivo da base de dados...";
+$l['done'] = "Terminado";
 
 // Modules, english names are hardcoded. Uncomment this for your language
 // Descriptions are added as "module_{key}_desc, however the current ones doesn't have a description
 // Singular versions are added as "module_{key}_singular
 /*
-$l['module_usergroups'] = 'User Groups';
-$l['module_usergroups_singular'] = 'User Group';
-$l['module_users'] = 'Users';
-$l['module_users_singular'] = 'User';
-$l['module_categories'] = 'Categories';
+$l['module_usergroups'] = 'Grupo de Usuários';
+$l['module_usergroups_singular'] = 'Grupo de Usuário';
+$l['module_users'] = 'Usuários';
+$l['module_users_singular'] = 'Usário';
+$l['module_categories'] = 'Categorias';
 $l['module_forums'] = 'Forums';
 $l['module_forums_singular'] = 'Forum';
-$l['module_forumperms'] = 'Forum Permissions';
-$l['module_forumperms_singular'] = 'Forum Permission';
+$l['module_forumperms'] = 'Permissões de Fórum';
+$l['module_forumperms_singular'] = 'Permissão do Fórum';
 // Yes, this is used twice as the key used for automatic detection is different sometimes. Will be fixed in a later release
-$l['module_forum_permissions'] = 'Forum Permissions';
-$l['module_forum_permissions_singular'] = 'Forum Permission';
-$l['module_moderators'] = 'Moderators';
-$l['module_moderators_singular'] = 'Moderator';
-$l['module_threads'] = 'Threads';
-$l['module_threads_singular'] = 'Thread';
-$l['module_posts'] = 'Posts';
-$l['module_posts_singular'] = 'Post';
-$l['module_attachments'] = 'Attachments';
-$l['module_attachments_singular'] = 'Attachment';
-$l['module_polls'] = 'Polls';
-$l['module_polls_singular'] = 'Poll';
+$l['module_forum_permissions'] = 'Permissões de Fórum';
+$l['module_forum_permissions_singular'] = 'Permissão do Fórum';
+$l['module_moderators'] = 'Moderadores';
+$l['module_moderators_singular'] = 'Moderador';
+$l['module_threads'] = 'Tópicos';
+$l['module_threads_singular'] = 'Tópicos';
+$l['module_posts'] = 'Mensagens';
+$l['module_posts_singular'] = 'Mensagem';
+$l['module_attachments'] = 'Anexos';
+$l['module_attachments_singular'] = 'Anexo';
+$l['module_polls'] = 'Enquetes';
+$l['module_polls_singular'] = 'Enquete';
 // Yes, this is used twice as the key used for automatic detection is different sometimes. Will be fixed in a later release
-$l['module_poll_votes'] = 'Polls';
-$l['module_poll_votes_singular'] = 'Poll';
-$l['module_pollvotes'] = 'Poll Votes';
-$l['module_pollvotes_singular'] = 'Poll Vote';
-$l['module_privatemessages'] = 'Private Messages';
-$l['module_privatemessages_singular'] = 'Private Message';
+$l['module_poll_votes'] = 'Enquetes';
+$l['module_poll_votes_singular'] = 'Enquete';
+$l['module_pollvotes'] = 'Votos na Enquete';
+$l['module_pollvotes_singular'] = 'Voto na Enquete';
+$l['module_privatemessages'] = 'Mensagens Privadas';
+$l['module_privatemessages_singular'] = 'Mensagem Privada';
 // Yes, this is used twice as the key used for automatic detection is different sometimes. Will be fixed in a later release
-$l['module_private_messages'] = 'Private Messages';
-$l['module_private_messages_singular'] = 'Private Message';
-$l['module_events'] = 'Events';
-$l['module_events_singular'] = 'Event';
-$l['module_icons'] = 'Icons';
-$l['module_icons_singular'] = 'Icon';
-$l['module_smilies'] = 'Smilies';
-$l['module_smilies_singular'] = 'Smilie';
-$l['module_settings'] = 'Settings';
-$l['module_settings_singular'] = 'Setting';
-$l['module_attachtypes'] = 'Attachment Types';
-$l['module_attachtypes_singular'] = 'Attachment Type';
+$l['module_private_messages'] = 'Mensagens Privadas';
+$l['module_private_messages_singular'] = 'Mensagem Privada';
+$l['module_events'] = 'Eventos';
+$l['module_events_singular'] = 'Evento';
+$l['module_icons'] = 'ícone';
+$l['module_icons_singular'] = 'Ícones';
+$l['module_smilies'] = 'Carinhas';
+$l['module_smilies_singular'] = 'Carinha';
+$l['module_settings'] = 'Configurações';
+$l['module_settings_singular'] = 'Configuração';
+$l['module_attachtypes'] = 'Tipos de Anexos';
+$l['module_attachtypes_singular'] = 'Tipo de Anexo';
 */
-$l['module_categories_singular'] = 'Category';
+$l['module_categories_singular'] = 'Categoria';
 
-$l['creating_fields'] = "Creating fields for tracking data during the Merge process (This may take a while)...";
-$l['creating_table'] = "Creating {1} table.";
-$l['creating_columns'] = "Adding {1} columns {2} to table {3}";
+$l['creating_fields'] = "Criando  campos de rastreamento durante o processo de importação (Pode demorar um tempo)...";
+$l['creating_table'] = "Criando {1} tabela.";
+$l['creating_columns'] = "Adicionado {1} colunas {2} à tabela {3}";
 
-$l['indexpage_require'] = "The MyBB Merge System requires MyBB 1.8 to run.";
+$l['indexpage_require'] = "O sistema de importação do MyBB requer o MyBB 1.8 para operar.";
 
-$l['welcomepage_description'] = "Welcome to the MyBB Merge System. The MyBB Merge system has been designed to allow you to convert a supported forum software to MyBB 1.8. In addition, you may also <i>merge</i> multiple forums into one MyBB Forum.<br /><br />You can find a detailed guide to the MyBB Merge System on our docs site: ";
-$l['welcomepage_mergesystem'] = "Merge System";
-$l['welcomepage_anonymousstat'] = "Send anonymous statistics about my merge to the MyBB Group";
-$l['welcomepage_informations'] = "What information is sent?";
-$l['welcomepage_closeboard'] = "Close the board during the merge";
-$l['welcomepage_note'] = "The MyBB Merge system is <u><strong>not</strong></u> used for upgrading or linking MyBB forums. In addition, please make sure all modifications or plugins that may interefere with the conversion process are <strong>deactivated</strong> on both forums (your old forum and your new forum), before you run the MyBB Merge System. It is also <strong>strongly</strong> recommended to make a backup of both forums before you continue.";
-$l['welcomepage_pleasenote'] = "Please Note";
+$l['welcomepage_description'] = "Bem vindo ao sistema de importação MyBB MErge Systema. O MyBB Merge system foi desenhado para converter sistema ao nosso MyBB 1.8. Adicionalmente você pode <i>importar</i> múltiplos fóruns ao MyBB.<br /><br />Você pode achar documentação completa em nosso site: ";
+$l['welcomepage_mergesystem'] = "Sistema de Importação";
+$l['welcomepage_anonymousstat'] = "Enviar dados anônimos sobre a importação ao MyBB Group";
+$l['welcomepage_informations'] = "Quais informações são enviadas?";
+$l['welcomepage_closeboard'] = "Feche o fórum durante a importação";
+$l['welcomepage_note'] = "O sistema de importação <u><strong>NÃO</strong></u> é usado para atualização ou conectar fóruns do MyBB. Além disso, certifique-se de todas as modificações ou plugins que podem interferir com a conversão estão<strong>DESATIVADOS</strong> em ambos os fóruns (seu fórum antigo e o seu novo fórum), antes de operar nosso sistema de conversão Merge System. É <strong>extremamente</strong> recomendado criar um cópia de segurança de ambos os fóruns..";
+$l['welcomepage_pleasenote'] = "Observe";
 
-$l['requirementspage_check'] = "Requirements Check";
-$l['requirementspage_req'] = "Requirements";
-$l['requirementspage_uptodate'] = "Up to Date";
-$l['requirementspage_outofdatedesc'] = "Your MyBB Merge System is out of date! Your MyBB Merge System may not work properly until you update. Latest version: 
+$l['requirementspage_check'] = "Checar requerimentos";
+$l['requirementspage_req'] = "Requerimentos";
+$l['requirementspage_uptodate'] = "Atualizado";
+$l['requirementspage_outofdatedesc'] = "O seu sistema de importação está desatualizado! O seu  MyBB Merge System talvez não funcione corretamente até atualizar. Última versão: 
 ";
-$l['requirementspage_outofdate'] = "Out of Date";
-$l['requirementspage_mergeoutofdate'] = "This version of the merge system is out-of-date";
-$l['requirementspage_unabletocheck'] = "Unable to Check";
-$l['requirementspage_unabletocheckdesc'] = "Unable to check version status against mybb.com version server";
-$l['requirementspage_chmoduploads'] = "The attachments directory (/uploads/) is not writable. Please adjust the ";
-$l['requirementspage_chmoduploads2'] = " permissions to allow it to be written to.";
-$l['requirementspage_chmod'] = "The attachments directory (/uploads/) is not writable. Please adjust the ";
-$l['requirementspage_notwritable'] = "Not Writable";
-$l['requirementspage_attnotwritable'] = "Attachments directory not writable";
-$l['requirementspage_attwritable'] = "Writable";
-$l['requirementspage_attwritabledesc'] = "Attachments directory writable";
-$l['requirementspage_reqfailed'] = "The MyBB Merge System Requirements check failed:";
-$l['requirementspage_mergeversion'] = "Merge System Version:";
-$l['requirementspage_attwritabledesc2'] = "Attachments directory writable:";
-$l['requirementspage_checkagain'] = "When you are ready, click \"Check Again\" to check again.";
-$l['requirementspage_congrats'] = "Congratulations, you passed all the requirement checks! Click \"Next\" to move right along.
+$l['requirementspage_outofdate'] = "Desatualizida";
+$l['requirementspage_mergeoutofdate'] = "Esta versão está desatualizada";
+$l['requirementspage_unabletocheck'] = "Impossível verificar";
+$l['requirementspage_unabletocheckdesc'] = "Impossível verificar a versão nos servidores mybb.com";
+$l['requirementspage_chmoduploads'] = "O diretório de anexos (/uploads/) não está gravável. Por favor, ajuste! ";
+$l['requirementspage_chmoduploads2'] = " permissões para permitir que ele seja escrito para.";
+$l['requirementspage_chmod'] = "O diretório de anexos (/uploads/) não está gravável. Por favor, ajuste! ";
+$l['requirementspage_notwritable'] = "Sem permissão para escrita";
+$l['requirementspage_attnotwritable'] = "Diretório de anexos não gravável";
+$l['requirementspage_attwritable'] = "Gravável";
+$l['requirementspage_attwritabledesc'] = "Diretório de Anexos gravável";
+$l['requirementspage_reqfailed'] = "A verificação dos requerimentos para importação falhou:";
+$l['requirementspage_mergeversion'] = "Versão do sistema de importação:";
+$l['requirementspage_attwritabledesc2'] = "Diretórios de anexos graváveis:";
+$l['requirementspage_checkagain'] = "Quando estiver pronto, clique em \"Verificar novamente\" para uma nova checagem.";
+$l['requirementspage_congrats'] = "Parabéns você passou por todos os requerimentos! Clique \"Próximo\" para seguir adiante.
 ";
 
 $l['boardspage_welcome'] = "Thank you for choosing MyBB. This wizard will guide you through the process of converting from your existing community to MyBB.";
