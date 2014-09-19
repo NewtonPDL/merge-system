@@ -99,7 +99,7 @@ $l['requirementspage_req'] = "Requerimentos";
 $l['requirementspage_uptodate'] = "Atualizado";
 $l['requirementspage_outofdatedesc'] = "O seu sistema de importação está desatualizado! O seu  MyBB Merge System talvez não funcione corretamente até atualizar. Última versão: 
 ";
-$l['requirementspage_outofdate'] = "Desatualizida";
+$l['requirementspage_outofdate'] = "Desatualizada";
 $l['requirementspage_mergeoutofdate'] = "Esta versão está desatualizada";
 $l['requirementspage_unabletocheck'] = "Impossível verificar";
 $l['requirementspage_unabletocheckdesc'] = "Impossível verificar a versão nos servidores mybb.com";
@@ -117,33 +117,33 @@ $l['requirementspage_checkagain'] = "Quando estiver pronto, clique em \"Verifica
 $l['requirementspage_congrats'] = "Parabéns você passou por todos os requerimentos! Clique \"Próximo\" para seguir adiante.
 ";
 
-$l['boardspage_welcome'] = "Thank you for choosing MyBB. This wizard will guide you through the process of converting from your existing community to MyBB.";
-$l['boardspage_boardselection'] = "Board Selection";
-$l['boardspage_boardselectiondesc'] = "Please select the board you wish to convert from.";
+$l['boardspage_welcome'] = "Obrigado por escolher MyBB. Este assistente irá guiá-lo através do processo de conversão de sua comunidade para MyBB.";
+$l['boardspage_boardselection'] = "Seleção de Fórum";
+$l['boardspage_boardselectiondesc'] = "Por favor, selecione o fórum que deseja converter.";
 
-$l['module_selection'] = "Module Selection";
-$l['module_selection_select'] = "Please select a module to run.";
-$l['module_selection_import'] = "Import {1} ";
-$l['module_selection_cleanup_desc'] = "After you have run the modules you want, continue to the next step in the conversion process.  The cleanup step will remove any temporary data created during the conversion.";
+$l['module_selection'] = "Seleção de Módulos";
+$l['module_selection_select'] = "Por favor execute um módulo.";
+$l['module_selection_import'] = "Importar {1} ";
+$l['module_selection_cleanup_desc'] = "Depois de ter executado os módulos que você quer, continue para a próxima etapa no processo de conversão. A etapa de limpeza irá remover quaisquer dados temporários criados durante a conversão.";
 
-$l['database_configuration'] = "Database Configuration";
-$l['database_settings'] = "Database Settings";
-$l['database_engine'] = "Database Engine";
-$l['database_path'] = "Database Path";
+$l['database_configuration'] = "Configuração do Banco de Dados";
+$l['database_settings'] = "Informações do Banco de Dados";
+$l['database_engine'] = "Tipo de banco de dados";
+$l['database_path'] = "Caminho do banco de dados";
 $l['database_host'] = "Database Server Hostname";
-$l['database_user'] = "Database Username";
-$l['database_pw'] = "Database Password";
-$l['database_name'] = "Database Name";
-$l['database_table_settings'] = "Table Settings";
-$l['database_table_prefix'] = "Table Prefix";
-$l['database_table_encoding'] = "Table Encoding";
-$l['database_utf8_thead'] = "Encode to UTF-8";
-$l['database_utf8_desc'] = "Automatically convert messages to UTF8?:<br /><small>Turn this off if the conversion creates<br />weird characters in your forum's messages.</small>";
-$l['database_click_next'] = "Once you have checked these details are correct, click next to continue.";
-$l['database_exit'] = "Exit Configuration";
-$l['database_check_success'] = "Checking database details... <span style=\"color: green\">success.</span>";
-$l['database_success'] = "Successfully configured and connected to the database.";
-$l['database_details'] = "Please enter the database details for your installation of {1} you want to merge from.";
+$l['database_user'] = "Nome de usuário do banco de dados;
+$l['database_pw'] = "Senha do banco de dados";
+$l['database_name'] = "Nome da base de dados";
+$l['database_table_settings'] = "Configurações de Tabela";
+$l['database_table_prefix'] = "Prefixo da Tabela";
+$l['database_table_encoding'] = "Codificação da Tabela";
+$l['database_utf8_thead'] = "Codificar para  UTF-8";
+$l['database_utf8_desc'] = "Converter mensagens automaticamente para UTF8?:<br /><small>Desligue isto se a conversão cria<br />caracteres estranhos em seu fórum</small>";
+$l['database_click_next'] = "Verifique os detalhes e clique para continuar.";
+$l['database_exit'] = "Sair da Configuração";
+$l['database_check_success'] = "Verificando detalhes da base de dados... <span style=\"color: green\">sucesso.</span>";
+$l['database_success'] = "A base de dados foi devidamente configurada e conectada.";
+$l['database_details'] = "Por favor insira os detalhes do banco de dados para a instalação do {1} que deseja importar.";
 
 $l['wbb_installationnumber'] = "Installationnumber";
 $l['wbb_installationnumber_desc'] = "Which was the installationnumber you selected when installing?";
@@ -154,15 +154,15 @@ $l['per_screen_label'] = "{1} to import at a time";
 $l['per_screen_autorefresh'] = "Do you want to automatically continue to the next step until it's finished?";
 
 $l['stats_in_progress'] = "{1} {2} are importing right now. There are {3} {2} left to import and {4} pages left.";
-$l['stats'] = "There are {1} {2} that will be imported.";
+$l['stats'] = "Há {1} {2} serão importados.";
 
-$l['progress'] = "Inserting {1} #{2}";
-$l['progress_merging_user'] = "Merging user #{1} with user #{2}";
-$l['progress_settings'] = "Inserting {1} {2} from your other {3} database";
-$l['progress_none_left'] = "There are no {1} to import. Please press next to continue.";
-$l['progress_none_left_settings'] = "There are no {1} to update. Please press next to continue.";
+$l['progress'] = "Inserindo {1} #{2}";
+$l['progress_merging_user'] = "Importando usuários #{1} com o usuário #{2}";
+$l['progress_settings'] = "Inserindo{1} {2} de sua outra {3} base de dados";
+$l['progress_none_left'] = "Há {1} para importar. Pressione próximo para continuar..";
+$l['progress_none_left_settings'] = "Há {1} para atualizar. Pressione próximo para continuar.";
 
-$l['import_successfully'] = "Successfully imported {1}.";
+$l['import_successfully'] = "Importação com sucesso {1}.";
 
 $l['module_post_rebuilding'] = "Rebuilding Counters";
 $l['module_post_rebuild_counters'] = "<br />\nRebuilding thread, forum, and statistic counters...(This may take a while)<br /><br />\n
@@ -281,132 +281,79 @@ Generated: {11}';
 $l['report_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>MyBB Merge System &gt; Generated Report</title>
+	<title>Sistema de Importação MyBB Merge &gt; Relatório Gerado</title>
 	<style type="text/css">
-		body {
-			font-family: Verdana, Arial, sans-serif;
-			font-size: 12px;
-			background: #efefef;
-			color: #000000;
-			margin: 0;
-		}
-
-		#container {
-			margin: auto auto;
-			width: 780px;
-			background: #fff;
-			border: 1px solid #ccc;
-			padding: 20px;
-		}
-
-		h1 {
-			font-size: 25px;
-			margin: 0;
-			background: #ddd;
-			padding: 10px;
-		}
-
-		h2 {
-			font-size: 18px;
-			margin: 0;
-			padding: 10px;
-			background: #efefef;
-		}
-
-		h3 {
-			font-size: 14px;
-			clear: left;
-			border-bottom: 1px dotted #aaa;
-			padding-bottom: 4px;
-		}
-
-		ul, li {
-			padding: 0;
-		}
-
-		#general p, #modules p, #import p, ul, li, dl {
-			margin-left: 30px;
-		}
-
-		dl dt {
-			float: left;
-			width: 300px;
-			padding-bottom: 10px;
-			font-weight: bold;
-		}
-
-		dl dd {
-			padding-bottom: 10px;
-		}
-
-		#footer {
-			border-top: 1px dotted #aaa;
-			padding-top: 10px;
-			font-style: italic;
-		}
-
-		.float_right {
-			float: right;
-		}
+	body{font-family:Verdana,Arial,sans-serif;font-size:12px;background:#efefef;color:#000;margin:0}
+#container{margin:auto;width:780px;background:#fff;border:1px solid #ccc;padding:20px}
+h1{font-size:25px;margin:0;background:#ddd;padding:10px}
+h2{font-size:18px;margin:0;padding:10px;background:#efefef}
+h3{font-size:14px;clear:left;border-bottom:1px dotted #aaa;padding-bottom:4px}
+ul,li{padding:0}
+#general p,#modules p,#import p,ul,li,dl{margin-left:30px}
+dl dt{float:left;width:300px;padding-bottom:10px;font-weight:700}
+dl dd{padding-bottom:10px}
+#footer{border-top:1px dotted #aaa;padding-top:10px;font-style:italic}
+.float_right{float:right}
 	</style>
 </head>
 <body>
 <div id="container">
-	<h1>MyBB Merge System</h1>
-	<h2>Merge Report</h2>
-	<p>Welcome to the MyBB Merge System Generated Report. This report shows a small overview of this merge session.</p>
+	<h1>Sistema de Importação MyBB Merge System</h1>
+	<h2>Relatório de Importação</h2>
+	<p>Bem vindo ao relatório do sistema de importação MyBB Merge System.Este relatório mostra uma pequena visão geral da importação feita.</p>
 	<div id="general">
-		<h3>General Statistics</h3>
-		<p>You merged {1} to your forum.</p>
+		<h3>Estatísticas Gerais</h3>
+		<p>Você mesclou {1} para o seu fórum.</p>
 		<dl>
-			<dt>Import began</dt>
+			<dt>Importação Iniciada</dt>
 			<dd>{2}</dd>
 
-			<dt>Import finished</dt>
+			<dt>Importação Terminada</dt>
 			<dd>{3}</dd>
 		</dl>
 	</div>
 	<div id="database">
-		<h3>Database Query Statistics</h3>
+		<h3>Estatísticas de Consulta do Banco de Dados</h3>
 		<dl>
-			<dt>Queries on the MyBB database</dt>
+			<dt>Consultas na base de dados do MyBB</dt>
 			<dd>{4}</dd>
 
-			<dt>Queries on the {8} database</dt>
+			<dt>Consultas sobre {8} banco de dados</dt>
 			<dd>{5}</dd>
 
-			<dt>Total query time</dt>
+			<dt>Tempo total de consulta</dt>
 			<dd>{6}</dd>
 		</dl>
 	</div>
 	<div id="modules">
-		<h3>Modules</h3>
-		<p>The following modules from this converter were completed:</p>
+		<h3>Módulos</h3>
+		<p>Os seguintes módulos de conversão foram completados:</p>
 		<ul>
 		{7}
 		</ul>
 	</div>
 	<div id="import">
-		<h3>Import Statistics</h3>
-		<p>The MyBB import system imported the following from your copy of {8}:</p>
+		<h3>Estatísticas da Importação</h3>
+		<p>O sistema de importação MyBB importou o seguinte  {8}:</p>
 		<dl>
 		{9}
 		</dl>
 	</div>
 	<div id="errors">
-		<h3>Errors</h3>
-		<p>The following errors were logged during the process of the Merge System:</p>
+		<h3>Erros</h3>
+		<p>Os seguintes erros estão relatados no sistema de importação Merge System:</p>
 		<ul>
 		{10}
 		</ul>
 	</div>
 	<div id="problems">
-		<h3>Problems?</h3>
-		<p>The "mybb_debuglogs" table located in your database contains debug information about this merge. If you find problems please file a support inquiry at the <a href="http://community.mybb.com/">MyBB Community Forums</a>.</p>
+		<h3>Problemas?</h3>
+		<p>A tabela "mybb_debuglogs"  existente em seu banco de dados contêm informações sobre a importação. Se você encontrar problemas por favor, envie -nos para suporte em <a href="http://community.mybb.com/">MyBB Community Forums</a>.</p>
 	</div>
 	<div id="footer">
 		<div class="float_right">MyBB &copy; 2002-{12} MyBB Group</div>
-		<div>Generated {11}</div>
+               <div class="float_right">Traduzido por ArnoldLayne-xXx do Fórum <a href="//bf4brasil.com.br" alt="BF4BRasil - Comunidade Brasileira" title=" BF4Brasil - Comunidade Brasileira" /><strong>BF4Brasil</strong></a></div>
+		<div>Gerado {11}</div>
 	</div>
 </div>
 </body>
