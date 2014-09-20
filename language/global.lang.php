@@ -175,16 +175,16 @@ $l['module_post_user_counter'] = "Refazendo contagem por usuário #{1}";
 
 $l['module_settings_updating'] = "Atualizando configurações{1}";
 
-$l['module_attachment_link'] = "Please type in the link to your {1} forum attachment directory";
-$l['module_attachment_label'] = "Link (URL) to your forum attachment directory";
-$l['module_attachment_error'] = "Error transfering the attachment (ID: {1})";
-$l['module_attachment_not_found'] = "Error could not find the attachment (ID: {1})";
-$l['module_attachment_thumbnail_error'] = "Error transfering the attachment thumbnail (ID: {1})";
-$l['module_attachment_thumbnail_not_found'] = "Error could not find the attachment thumbnail (ID: {1})";
+$l['module_attachment_link'] = "Por favor coloque o link {1} do diretório de anexos";
+$l['module_attachment_label'] = "Caminho (URL) do diretório de anexos";
+$l['module_attachment_error'] = "Erro transferindo o anexo (ID: {1})";
+$l['module_attachment_not_found'] = "Erro:Não achamos o anexo (ID: {1})";
+$l['module_attachment_thumbnail_error'] = "Erro de transferência da visualização do anexo (ID: {1})";
+$l['module_attachment_thumbnail_not_found'] = "Erro ao procurar a visualização de anexo (ID: {1})";
 
-$l['attmodule_notwritable'] = "The uploads directory (uploads/) is not writable. Please adjust the ";
+$l['attmodule_notwritable'] = "A pasta de anexos (uploads/) não está gravável. Por favor ajuste-a ";
 $l['attmodule_chmod'] = "chmod";
-$l['attmodule_notwritable2'] = " permissions to allow it to be written to.";
+$l['attmodule_notwritable2'] = " permissões para permitir que ele seja escrito para.";
 $l['attmodule_ipadress'] = "You may not use \"localhost\" in the URL. Please use your Internet IP Address (Please make sure Port 80 is open on your firewall and router).";
 $l['attmodule_ipadress2'] = "You may not use \"127.0.0.1\" in the URL. Please use your Internet IP Address (Please make sure Port 80 is open on your firewall and router).";
 $l['attmodule_notread'] = "The attachments could not be read. Please adjust the ";
