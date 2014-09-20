@@ -148,12 +148,12 @@ $l['database_details'] = "Por favor insira os detalhes do banco de dados para a 
 $l['wbb_installationnumber'] = "Installationnumber";
 $l['wbb_installationnumber_desc'] = "Which was the installationnumber you selected when installing?";
 
-$l['per_screen_config'] = "Options Configuration";
-$l['per_screen'] = "Please select how many {1} to import at a time";
-$l['per_screen_label'] = "{1} to import at a time";
-$l['per_screen_autorefresh'] = "Do you want to automatically continue to the next step until it's finished?";
+$l['per_screen_config'] = "Opções de Configurações";
+$l['per_screen'] = "Por favor selecione o quanto deseja {1} importar ao mesmo tempo";
+$l['per_screen_label'] = "{1} para importar ao mesmo tempo";
+$l['per_screen_autorefresh'] = "Você que continuar automaticamente até o próximo passo?";
 
-$l['stats_in_progress'] = "{1} {2} are importing right now. There are {3} {2} left to import and {4} pages left.";
+$l['stats_in_progress'] = "{1} {2} sendo importados agora. São {3} {2} ainda por importar {4} páginas restantes.";
 $l['stats'] = "Há {1} {2} serão importados.";
 
 $l['progress'] = "Inserindo {1} #{2}";
@@ -164,16 +164,16 @@ $l['progress_none_left_settings'] = "Há {1} para atualizar. Pressione próximo 
 
 $l['import_successfully'] = "Importação com sucesso {1}.";
 
-$l['module_post_rebuilding'] = "Rebuilding Counters";
-$l['module_post_rebuild_counters'] = "<br />\nRebuilding thread, forum, and statistic counters...(This may take a while)<br /><br />\n
-<br />\nRebuilding thread counters... ";
-$l['module_post_thread_counter'] = "Rebuilding counters for thread #{1}";
-$l['module_post_rebuilding_forum'] = "Rebuilding forum counters...";
-$l['module_post_forum_counter'] = "Rebuilding counters for forum #{1}";
-$l['module_post_rebuilding_user'] = "Rebuilding user counters...";
-$l['module_post_user_counter'] = "Rebuilding counters for user #{1}";
+$l['module_post_rebuilding'] = "Refazendo contagem";
+$l['module_post_rebuild_counters'] = "<br />\nRefazendo tópicos, forum e estatísticas...(Pode demorar um pouco)<br /><br />\n
+<br />\nRefazendo contagem de tópicos... ";
+$l['module_post_thread_counter'] = "Refazendo contagem de tópicos #{1}";
+$l['module_post_rebuilding_forum'] = "Refazendo contagem de fóruns...";
+$l['module_post_forum_counter'] = "Refazendo contagem por fóruns #{1}";
+$l['module_post_rebuilding_user'] = "Refazendo contagem de usuários...";
+$l['module_post_user_counter'] = "Refazendo contagem por usuário #{1}";
 
-$l['module_settings_updating'] = "Updating settings {1}";
+$l['module_settings_updating'] = "Atualizando configurações{1}";
 
 $l['module_attachment_link'] = "Please type in the link to your {1} forum attachment directory";
 $l['module_attachment_label'] = "Link (URL) to your forum attachment directory";
