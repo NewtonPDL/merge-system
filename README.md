@@ -1,4 +1,7 @@
-[![MyBB](https://raw.github.com/mybb/mybb/feature/images/logo.png "MyBB")](http://www.mybb.com "MyBB")
+![](https://mediacru.sh/2jDDrUQZOUms.png)
+
+Tradução do Sistema de Importação do MyBB
+
 ## MyBB Merge System
 A repository for the MyBB merge system.
 
