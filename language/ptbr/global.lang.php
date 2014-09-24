@@ -4,6 +4,7 @@
  * Direitos Autorais 2014 MyBB Group, Todos os Direitos Reservados
  * Traduzido por dthiago ArnoldLayne-xXx 
  * From : http://bf4brasil.com.br/
+ * Revisado por "NewtonPDL" "http://community.mybb.com/user-35908.html"
  * Website: http://www.mybb.com
  * License: http://www.mybb.com/download/merge-system/license/
  */
@@ -11,46 +12,46 @@
 $l['next'] = "Próximo";
 $l['version'] = "Versão";
 $l['none'] = "Nenhum";
-$l['please_wait'] = "Aguarde...";
-$l['welcome'] = "Bem vindo";
-$l['pause'] = "Pause";
+$l['please_wait'] = "Por Favor Aguarde...";
+$l['welcome'] = "Bem-vindo";
+$l['pause'] = "Pausar";
 $l['error'] = "Erro";
 $l['warning'] = "Advertência";
 $l['completed'] = "Concluído";
 $l['dependencies'] = "Dependências";
 $l['resume'] = "Resumir";
-$l['run'] = "Operar";
+$l['run'] = "Ir";
 $l['cleanup'] = "Limpar";
 $l['yes'] = "Sim";
 $l['no'] = "Não";
 $l['download'] = "Baixar";
 $l['redirecting'] = "Redirecionando...";
-$l['dont_wait'] = "Clique para continuar,se você não deseja esperar.";
+$l['dont_wait'] = "Clique para continuar, se você não quiser esperar.";
 $l['back'] = "Voltar";
 $l['found_error'] = "Erro Encontrado";
 $l['loading_data'] = "Carregando arquivo da base de dados...";
-$l['done'] = "Terminado";
+$l['done'] = "Finalizado";
 
 // Modules, english names are hardcoded. Uncomment this for your language
 // Descriptions are added as "module_{key}_desc, however the current ones doesn't have a description
 // Singular versions are added as "module_{key}_singular
-/*
-$l['module_usergroups'] = 'Grupo de Usuários';
+
+$l['module_usergroups'] = 'Grupos de Usuários';
 $l['module_usergroups_singular'] = 'Grupo de Usuário';
 $l['module_users'] = 'Usuários';
-$l['module_users_singular'] = 'Usário';
+$l['module_users_singular'] = 'Usuário';
 $l['module_categories'] = 'Categorias';
-$l['module_forums'] = 'Forums';
-$l['module_forums_singular'] = 'Forum';
-$l['module_forumperms'] = 'Permissões de Fórum';
+$l['module_forums'] = 'Fórums';
+$l['module_forums_singular'] = 'Fórum';
+$l['module_forumperms'] = 'Permissões do Fórum';
 $l['module_forumperms_singular'] = 'Permissão do Fórum';
 // Yes, this is used twice as the key used for automatic detection is different sometimes. Will be fixed in a later release
-$l['module_forum_permissions'] = 'Permissões de Fórum';
+$l['module_forum_permissions'] = 'Permissões do Fórum';
 $l['module_forum_permissions_singular'] = 'Permissão do Fórum';
 $l['module_moderators'] = 'Moderadores';
 $l['module_moderators_singular'] = 'Moderador';
 $l['module_threads'] = 'Tópicos';
-$l['module_threads_singular'] = 'Tópicos';
+$l['module_threads_singular'] = 'Tópico';
 $l['module_posts'] = 'Mensagens';
 $l['module_posts_singular'] = 'Mensagem';
 $l['module_attachments'] = 'Anexos';
@@ -69,10 +70,10 @@ $l['module_private_messages'] = 'Mensagens Privadas';
 $l['module_private_messages_singular'] = 'Mensagem Privada';
 $l['module_events'] = 'Eventos';
 $l['module_events_singular'] = 'Evento';
-$l['module_icons'] = 'ícone';
+$l['module_icons'] = 'Ícone';
 $l['module_icons_singular'] = 'Ícones';
-$l['module_smilies'] = 'Carinhas';
-$l['module_smilies_singular'] = 'Carinha';
+$l['module_smilies'] = 'Emoticons';
+$l['module_smilies_singular'] = 'Emoticon';
 $l['module_settings'] = 'Configurações';
 $l['module_settings_singular'] = 'Configuração';
 $l['module_attachtypes'] = 'Tipos de Anexos';
@@ -80,19 +81,19 @@ $l['module_attachtypes_singular'] = 'Tipo de Anexo';
 */
 $l['module_categories_singular'] = 'Categoria';
 
-$l['creating_fields'] = "Criando  campos de rastreamento durante o processo de importação (Pode demorar um tempo)...";
+$l['creating_fields'] = "Criando áreas de rastreamento durante o processo de importação (Isso pode demorar um pouco)...";
 $l['creating_table'] = "Criando {1} tabela.";
 $l['creating_columns'] = "Adicionado {1} colunas {2} à tabela {3}";
 
-$l['indexpage_require'] = "O sistema de importação do MyBB requer o MyBB 1.8 para operar.";
+$l['indexpage_require'] = "O sistema de importação do MyBB requer o MyBB 1.8 para funcionar.";
 
-$l['welcomepage_description'] = "Bem vindo ao sistema de importação MyBB MErge Systema. O MyBB Merge system foi desenhado para converter sistema ao nosso MyBB 1.8. Adicionalmente você pode <i>importar</i> múltiplos fóruns ao MyBB.<br /><br />Você pode achar documentação completa em nosso site: ";
+$l['welcomepage_description'] = "Bem-vindo ao Sistema de Importação MyBB (Merge System). O Sistema de Importação MyBB foi desenhado para converter um sistema de fórum suportado para o MyBB 1.8. Adicionalmente você pode <i>importar</i> múltiplos fóruns ao MyBB.<br /><br />Você pode encontrar a documentação completa em nosso site: ";
 $l['welcomepage_mergesystem'] = "Sistema de Importação";
 $l['welcomepage_anonymousstat'] = "Enviar dados anônimos sobre a importação ao MyBB Group";
 $l['welcomepage_informations'] = "Quais informações são enviadas?";
 $l['welcomepage_closeboard'] = "Feche o fórum durante a importação";
-$l['welcomepage_note'] = "O sistema de importação <u><strong>NÃO</strong></u> é usado para atualização ou conectar fóruns do MyBB. Além disso, certifique-se de todas as modificações ou plugins que podem interferir com a conversão estão<strong>DESATIVADOS</strong> em ambos os fóruns (seu fórum antigo e o seu novo fórum), antes de operar nosso sistema de conversão Merge System. É <strong>extremamente</strong> recomendado criar um cópia de segurança de ambos os fóruns..";
-$l['welcomepage_pleasenote'] = "Observe";
+$l['welcomepage_note'] = "O Sistema de Importação MyBB <u><strong>NÃO</strong></u> é usado para atualização ou conexão de fóruns MyBB. Além disso, certifique-se de que todas as modificações ou plugins que possam interferir na conversão estejam<strong>DESATIVADOS</strong> em ambos os fóruns (seu fórum antigo e o seu novo fórum), antes de iniciar nosso sistema de conversão Merge System. É <strong>extremamente</strong> recomendado criar uma cópia de segurança de ambos os fóruns..";
+$l['welcomepage_pleasenote'] = "Por favor observe"; //revisão parada aqui.
 
 $l['requirementspage_check'] = "Checar requerimentos";
 $l['requirementspage_req'] = "Requerimentos";
